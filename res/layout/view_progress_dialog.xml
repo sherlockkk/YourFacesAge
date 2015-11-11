@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:minHeight="160dp"
+    android:minWidth="280dp" 
+    android:gravity="center"  
+    android:padding="10dp"  
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/white_dialog_bg">
+	<ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:flipInterval="150">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_1"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_2"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_3"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_4"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_5"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_6"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_7"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_8"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_9"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_10"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_11"/>
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foot_loading_12"/>
+        </ViewFlipper>
+
+	<TextView
+	    android:id="@+id/text_message"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:textColor="#727272"
+	    android:text="分析中..." />
+
+</LinearLayout>

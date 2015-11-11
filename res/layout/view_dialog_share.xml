@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:minHeight="120dp"
+    android:minWidth="280dp" 
+    android:gravity="center"  
+    android:padding="10dp"  
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/white_dialog_bg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:textColor="#727272"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="17sp"
+        android:text="是否分享你脸年龄？" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:textColor="#6795EA"
+        android:textSize="18sp"
+        android:layout_marginLeft="5dp"
+        android:text="分析结果:男    23岁" />
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#727272"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:text="把你的脸和分析出来的年龄分享到地图上，看看你是年轻还是成熟?\n点击分享得瑟一下吧" />
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="vertical">
+
+	<ImageView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="5dp"
+	    
+	    android:background="@drawable/border_line" />
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingTop="5dp" >
+
+		<Button
+		    android:id="@+id/button_positive"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:background="@null"
+		    android:layout_weight="1"
+		    android:textColor="#f84848"
+		    android:text="分享你的脸" />
+
+		<ImageView
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/vertical_lines" />
+
+		<Button
+		    android:id="@+id/button_negative"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		    android:background="@null"
+		    android:textColor="#f84848"
+		    android:text="不分享" />
+
+	</LinearLayout>
+
+</LinearLayout>
