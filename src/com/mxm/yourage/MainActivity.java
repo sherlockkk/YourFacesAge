@@ -347,8 +347,8 @@ public class MainActivity extends BaseActivity {
 
 				public void run() {
 					HttpRequests httpRequests = new HttpRequests(
-							"4480afa9b8b364e30ba03819f3e9eff5",
-							"Pz9VFT8AP3g_Pz8_dz84cRY_bz8_Pz8M", true, false);
+							"1a477e1c8f45f6a233dc509bac154f17",
+							"vkG34ggOrwMjSnsQXq2zxK-2T2HUe0QH", true, false);
 					// Log.v(TAG, "image size : " + img.getWidth() + " " +
 					// img.getHeight());
 					ByteArrayOutputStream stream = new ByteArrayOutputStream();
